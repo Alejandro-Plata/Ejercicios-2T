@@ -5,39 +5,35 @@ public class Matriz {
 
 	public static void invertirValor(int [][] matriz) {
 		
-		for (int i=0; i<matriz.length; i++) {
-			
-			for (int j=0; j<matriz[0].length; j++) {
+	  for (int i=0; i<matriz.length; i++) {
+	    for (int j=0; j<matriz[0].length; j++) {
 				
-				if(matriz[i][j] == 1) {//Si el valor es 1, lo transforma en 0
-					matriz[i][j] = 0; 
-				}
-				else {
-					matriz[i][j] = 1;//Si el valor es 0, lo transforma en 1
-				}
-				
-			}
-		}
-		
-	}
-	public static int contarUno(int [][] matriz) {
+	      if(matriz[i][j] == 1) {//Si el valor es 1, lo transforma en 0
+	          matriz[i][j] = 0; 
+	      } else {
+		  matriz[i][j] = 1;//Si el valor es 0, lo transforma en 1
+		}		
+		    
+	      }
+	    }	
+	 }
 	
+	public static int contarUno(int [][] matriz) {
 		int contadorUno = 0;
 		
-		for (int i=0; i<matriz.length; i++) {
-			
-			for (int j=0; j<matriz[0].length; j++) {
-				
-				if(matriz[i][j] == 1) { //Cada vez que encuentre un 1, aumenta el contador de unos
-					contadorUno++;
-				}
-				
-			}
-			
-		}
-		return contadorUno;
+		for (int i = 0; i < matriz.length; i++) {
+		  for (int j = 0; j < matriz[0].length; j++) {
+
+		    if(matriz[i][j] == 1) { //Cada vez que encuentre un 1, aumenta el contador de unos
+		      contadorUno++;
+		    }	
+			  
+		  }	
+		 }
 		
+		return contadorUno;	
 	}
+	
 	public static boolean comprobarCeros(int [][] matriz) {
 	
 		boolean flag = true; //Asumimos que son todo ceros
