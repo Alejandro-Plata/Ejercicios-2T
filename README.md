@@ -12,5 +12,5 @@ Este repositorio contiene los **ejercicios** que he resuelto a lo largo del segu
 
 ## Contacto
 
-Puedes encontrar mi perfil profesional en [linkedin](MTMwMTE4ZTExNjJhY2FjNmI2MmUwZmViNDExZGVlYjA4YmNiZDA0NjkwYTc4YzY4N2JjZTA1Njg0NzVlNWRmNGYxZDRkY2U5NjhjZWNkZTkwZmE2ZWJhOWU5NDg4ODI1ZGEzOGUxMTc5ZGExZWMzZTRhN2ZmYTZjLDEsMQ). 
+Puedes encontrar mi perfil profesional en [linkedin](https://www.linkedin.com/in/alejandro-plata-cort%C3%A9s-730526349/). 
 
