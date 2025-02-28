@@ -1,4 +1,4 @@
-package EjerciciosPOO.buscaminas;
+package Buscaminas;
 
 import java.util.Scanner;
 
@@ -135,7 +135,7 @@ public class Buscaminas {
 
     // Imprime el tablero en consola.
     public void mostrarTablero() {
-        System.out.println("\n\u001B[0mTablero:");
+        System.out.println("\nTablero:");
         System.out.print("   ");
         for (int j = 0; j < this.filas; j++) {
             System.out.print(j + "  ");
@@ -155,7 +155,7 @@ public class Buscaminas {
         System.out.println("\nMenú de opciones\n"
                 + "1. Abrir una casilla.\n"
                 + "2. Marcar o desmarcar una casilla (BANDERA). Solo puedes marcar " + numeroMinas + " banderas.\n"
-                + "3. Marcar o desmarcar una casilla (DUDA).\n");
+                + "3. Marcar o desmarcar una casilla (DUDA).");
 
     }
 
@@ -185,7 +185,7 @@ public class Buscaminas {
 
                     // Si la casilla tiene mina, el juego se termina.
                     if (tablero[fila][col].tieneMina()) {
-                        System.out.println("¡Boooooooooooooom! \u001B[31mHas perdido.");
+                        System.out.println("¡Boooooooooooooom! \u001B[31mHas perdido.\u001B[0m");
                         abrirMinas();
                         mostrarTablero();
                         juegoTerminado = true;
