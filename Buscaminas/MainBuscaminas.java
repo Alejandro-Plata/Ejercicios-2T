@@ -1,4 +1,4 @@
-package EjerciciosPOO.buscaminas;
+package Buscaminas;
 
 
     /* En la clase Main se lanza la aplicación del buscaminas. 
