@@ -1,8 +1,7 @@
 package EjerciciosPOO.buscaminas;
 
 
-    /* En la clase Main se lanza la aplicación del buscaminas. Contiene, por tanto, las dimensiones del tablero,
-    así como los elementos necesarios para su interfaz gráfica. Para ello, he utilizado clases de la biblioteca javax.swing
+    /* En la clase Main se lanza la aplicación del buscaminas. 
     *
     * @Author: Alejandro Plata Cortés
     * @Fecha: 28/02/2025
