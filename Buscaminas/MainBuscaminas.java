@@ -12,7 +12,7 @@ public class MainBuscaminas {
 
     public static void main(String[] args) {
 
-        Buscaminas partida = new Buscaminas(9,0);
+        Buscaminas partida = new Buscaminas(9,10);
 
 
         partida.jugar();
