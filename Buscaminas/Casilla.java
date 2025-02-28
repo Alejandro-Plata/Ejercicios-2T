@@ -3,6 +3,12 @@ package Buscaminas;
 import static Buscaminas.Buscaminas.getNumeroMinas; //Importamos el método estático parapoder conocer el número de minas
 import static Buscaminas.Buscaminas.numeroBanderas; //Lo mismo para manipular el número de banderas puestas
 
+/* La clase casilla implementa las funcionalidades principales de cada casilla del juego, incluyendo
+    * cómo debe dibujarse según su estado y contenido.
+    *
+    * @Author: Alejandro Plata Cortés
+    * @Fecha: 28/02/2025
+    * */
 
 public class Casilla {
 
