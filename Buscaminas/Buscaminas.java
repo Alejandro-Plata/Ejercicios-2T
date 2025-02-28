@@ -2,6 +2,14 @@ package Buscaminas;
 
 import java.util.Scanner;
 
+/* La clase Buscaminas implementa la lógica del juego, utilizando principalmente Arrays y, para la apertura de casillas adyacentes desprovistas de bomba,
+    * el método abrirCasilla() implementa una variante de un algoritmo llamado flood fill, que consiste en una llamada recursiva que propaga la apertura de casillas
+    * hasta que se topa con casillas que tienen una o varias bombas adyacentes a ella.
+    *
+    * @Author: Alejandro Plata Cortés
+    * @Fecha: 28/02/2025
+    * */
+
 public class Buscaminas {
 
     private Casilla[][] tablero;
