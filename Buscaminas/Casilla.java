@@ -1,7 +1,7 @@
-package EjerciciosPOO.buscaminas;
+package Buscaminas;
 
-import static EjerciciosPOO.buscaminas.Buscaminas.getNumeroMinas; //Importamos el método estático parapoder conocer el número de minas
-import static EjerciciosPOO.buscaminas.Buscaminas.numeroBanderas; //Lo mismo para manipular el número de banderas puestas
+import static Buscaminas.Buscaminas.getNumeroMinas; //Importamos el método estático parapoder conocer el número de minas
+import static Buscaminas.Buscaminas.numeroBanderas; //Lo mismo para manipular el número de banderas puestas
 
 
 public class Casilla {
@@ -100,7 +100,13 @@ public class Casilla {
         } else {
             // Si no hay minas adyacentes, se muestra un guión (en un inicio era un espacio en blanco, pero en mi opinión no queda muy claro).
             //Si hay minas adyacentes, se muestra el número de minas adyacentes a una casilla
-            return (minasAdyacentes > 0 ? String.valueOf(minasAdyacentes) + " " : "- ");
+            String color = switch(minasAdyacentes){ //Cambia el color según el número
+              case 1 -> "\u001B[32m";
+              case 2,3 -> "\u001B[33m";
+              case 4,5,6,7,8 -> "\u001B[31m";
+              default -> "\u001B[37m";
+            };
+            return (minasAdyacentes > 0 ? color + String.valueOf(minasAdyacentes) + " \u001B[0m" : "- ");
         }
     }
 
