@@ -1,0 +1,10 @@
+Tamaño: 6
+Modo: Personalizado
+Casillas activas: 3
+Duración: 60
+Tablero:
+100001
+010000
+00100A
+0C0100
+100011

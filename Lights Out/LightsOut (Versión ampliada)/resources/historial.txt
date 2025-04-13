@@ -1,0 +1,108 @@
+
+Partida 1:
+
+Puntuación: 20
+Tiempo: 115
+Estado final:
+🔲 🔳 🔳 🔳 🔳 
+🔲 🔲 🔳 🔳 🔲 
+🔳 🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 🔳 
+
+Resultado: 👎 Derrota 📉
+
+----------------------------
+
+Partida 2:
+
+Puntuación: 25
+Tiempo: 56
+Estado final:
+🔲 🔳 🔳 🔳 🔳 
+🔳 🔲 🔳 🔳 🔳 
+🔳 🔳 🔲 🔳 🔳 
+🔳 🔳 🔳 🔲 🔳 
+🔳 🔳 🔳 🔳 🔲 
+
+Resultado: 👎 Derrota 📉
+
+----------------------------
+
+Partida 3:
+
+Puntuación: 12
+Tiempo: 164
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+Resultado: 💪 Victoria 📈
+----------------------------
+
+Partida 4:
+
+Puntuación: 12
+Tiempo: 171
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+Resultado: 💪 Victoria 📈
+----------------------------
+
+Partida 5:
+
+Puntuación: 12
+Tiempo: 166
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+Resultado: 💪 Victoria 📈
+----------------------------
+
+Partida 6:
+
+Puntuación: 12
+Tiempo: 171
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+Resultado: 💪 Victoria 📈
+----------------------------
+
+Partida 7:
+
+Puntuación: 12
+Tiempo: 174
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+Resultado: 💪 Victoria 📈
+----------------------------
+
+Partida 8:
+
+Puntuación: 12
+Tiempo: 171
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+Resultado: 💪 Victoria 📈
+----------------------------

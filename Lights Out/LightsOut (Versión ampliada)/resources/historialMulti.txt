@@ -1,0 +1,199 @@
+
+
+Partida 2:
+
+Puntuación jugador 1: 12
+Puntuación jugador 2: 12
+Tiempo: 139
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+
+Resultado: 
+😞 Derrota de Juan 📉
+💪 Victoria de Alex 📈
+
+----------------------------
+
+Partida 4:
+
+Puntuación jugador 1: 12
+Puntuación jugador 2: 12
+Tiempo: 145
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+
+Resultado: 
+😞 Derrota de Sara 📉
+💪 Victoria de Maria 📈
+
+----------------------------
+
+Partida 5:
+
+Puntuación jugador 1: 14
+Puntuación jugador 2: 14
+Tiempo: 163
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+
+Resultado: 
+😞 Derrota de Sara 📉
+💪 Victoria de Maria 📈
+
+----------------------------
+
+Partida 7:
+
+Puntuación jugador 1: 12
+Puntuación jugador 2: 12
+Tiempo: 168
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+
+Resultado: 
+😞 Derrota de Maria 📉
+💪 Victoria de Sara 📈
+
+----------------------------
+
+Partida 8:
+
+Puntuación jugador 1: 14
+Puntuación jugador 2: 14
+Tiempo: 167
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+
+Resultado: 
+😞 Derrota de Maria 📉
+💪 Victoria de Sara 📈
+
+----------------------------
+
+Partida 9:
+
+Puntuación jugador 1: 14
+Puntuación jugador 2: 14
+Tiempo: 169
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+
+Resultado: 
+😞 Derrota de Juan 📉
+💪 Victoria de Paco 📈
+
+----------------------------
+
+Partida 10:
+
+Puntuación jugador 1: 14
+Puntuación jugador 2: 14
+Tiempo: 168
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+
+Resultado: 
+😞 Derrota de Paco 📉
+💪 Victoria de Sara 📈
+
+----------------------------
+
+Partida 11:
+
+Puntuación jugador 1: 14
+Puntuación jugador 2: 14
+Tiempo: 168
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+
+Resultado: 
+😞 Derrota de Juan 📉
+💪 Victoria de Paco 📈
+
+----------------------------
+
+Partida 12:
+
+Puntuación jugador 1: 14
+Puntuación jugador 2: 14
+Tiempo: 164
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+
+Resultado: 
+😞 Derrota de Juan 📉
+💪 Victoria de Sara 📈
+
+----------------------------
+
+Partida 13:
+
+Puntuación jugador 1: 14
+Puntuación jugador 2: 14
+Tiempo: 168
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+
+Resultado: 
+😞 Derrota de Sara 📉
+💪 Victoria de Alex 📈
+
+----------------------------
+
+Partida 14:
+
+Puntuación jugador 1: 14
+Puntuación jugador 2: 14
+Tiempo: 171
+Estado final:
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+🔳 🔳 🔳 🔳 
+
+
+Resultado: 
+😞 Derrota de Paco 📉
+💪 Victoria de Sara 📈
+
+----------------------------
