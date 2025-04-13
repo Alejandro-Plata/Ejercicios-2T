@@ -1,61 +1,81 @@
-# 💣 Buscaminas
+# 💣 Buscaminas en Java
 
 ## 📝 Descripción del Proyecto
-Este proyecto es una implementación en Java del clásico juego Buscaminas. El objetivo principal es descubrir todas las casillas del tablero que no contienen minas, utilizando como pistas los números que indican la cantidad de minas adyacentes a cada casilla descubierta.
+Implementación en Java del clásico juego Buscaminas que se ejecuta por consola. El objetivo del juego es descubrir todas las casillas que no contienen minas, utilizando como pista los números que indican la cantidad de minas adyacentes a cada casilla descubierta.
 
-## 🎯 Objetivos del Proyecto
-El proyecto busca aplicar y consolidar conocimientos de programación en Java, incorporando conceptos como:
-- Programación modular
-- Encapsulación
-- Manejo de clases
-- Documentación de código
-- Lectura y escritura de archivos
-
-## ⚙️ Características principales
-
-### Versión Básica
+## 🎯 Características principales
 - Tablero interactivo representado en consola
-- Generación aleatoria de minas en el tablero
-- Sistema de marcado de casillas sospechosas
-- Cálculo automático de casillas adyacentes
-- Detección de victoria y derrota
-
-### Versión Ampliada
-- Diferentes niveles de dificultad (principiante, intermedio y experto)
-- Sistema de puntuación basado en tiempo y casillas descubiertas
-- Modo multijugador por turnos
-- Historial de partidas
-- Configuración personalizada de tableros
+- Generación aleatoria de minas
+- Sistema de marcado de casillas con banderas 🚩 y símbolos de duda ❓
+- Cálculo automático de minas adyacentes
+- Algoritmo "flood fill" para abrir automáticamente casillas vacías
+- Interfaz de usuario por consola con menú de opciones
+- Visualización del tablero con colores para mejor experiencia de usuario
 
 ## 🏗️ Estructura del Proyecto
 
 ### Clases Principales
-- **Buscaminas**: Gestiona la matriz de casillas que conforman el juego y controla la lógica y el flujo del juego
-- **Casilla**: Representa cada celda del tablero con sus diferentes estados (oculta, descubierta, marcada).
-- **MainBuscaminas**: Punto de entrada de la aplicación
+
+#### `Buscaminas`
+Implementa la lógica principal del juego:
+- Inicialización del tablero
+- Colocación aleatoria de minas
+- Cálculo de minas adyacentes
+- Algoritmo recursivo para apertura de casillas
+- Control del estado del juego
+- Menú de opciones y bucle principal
+
+#### `Casilla`
+Representa cada celda del tablero:
+- Gestiona los diferentes estados de una casilla (abierto, cerrado, marcado, duda)
+- Almacena información sobre la presencia de minas
+- Cuenta las minas adyacentes
+- Define la representación visual de cada casilla según su estado
+
+#### `MainBuscaminas`
+Punto de entrada de la aplicación:
+- Inicializa una partida con un tablero de 9x9 y 10 minas
 
 ## 🕹️ Cómo jugar
-1. Ejecuta el programa desde la clase Main
-2. Selecciona el nivel de dificultad o el modo de juego
-3. En tu turno, introduce las coordenadas de la casilla que deseas descubrir
-4. Utiliza la opción de marcar para señalar las casillas donde sospechas que hay minas
-5. Descubre todas las casillas sin minas para ganar
+1. Ejecuta el programa desde la clase `MainBuscaminas`
+2. En cada turno, selecciona una de las siguientes opciones:
+   - **1**: Abrir una casilla
+   - **2**: Marcar o desmarcar una casilla con bandera 🚩
+   - **3**: Marcar o desmarcar una casilla con signo de duda ❓
+3. Introduce las coordenadas en formato "fila columna"
+4. El juego termina cuando:
+   - Descubres una mina (derrota)
+   - Marcas correctamente todas las minas (victoria)
 
-## 📚 Aprendizajes del Desarrollo
-- Implementación de algoritmos recursivos para descubrir casillas adyacentes
-- Manejo eficiente de matrices bidimensionales
-- Gestión de estados y transiciones de juego
-- Desarrollo de lógica para validar victorias y derrotas
-- Implementación de sistemas de puntuación y estadísticas
+## 🎮 Representación en consola
+- Casillas cerradas: `· `
+- Casillas marcadas: 🚩
+- Casillas con duda: ❓
+- Minas: 💣
+- Casillas vacías: `- `
+- Números de minas adyacentes:
+  - 1: Verde
+  - 2-3: Amarillo
+  - 4-8: Rojo
 
-## 🛠️ Tecnologías Utilizadas
-- Java SE
-- Programación por consola (sin interfaz gráfica)
-- Archivos de texto para configuración y almacenamiento de historial
+## 💡 Características técnicas
+- Implementación del algoritmo "flood fill" para revelar casillas adyacentes vacías
+- Uso de enum para los estados de las casillas
+- Colores ANSI para mejorar la visualización por consola
+- Control del número máximo de banderas disponibles
+- Validación de coordenadas introducidas
 
-## ❌ Fé de erratas
-Este fue el primer proyecto que desarrollé en Java y tiene potencial para organizar mejor cada una de sus partes, agregar alguna clase y simplificar el código.
+## 🔍 Detalles de implementación
+- El algoritmo recursivo `abrirCasilla()` propaga la apertura de casillas hasta encontrar casillas con minas adyacentes
+- Sistema de validación para asegurar que no se exceda el número máximo de banderas (igual al número de minas)
+- Verificación automática de victoria cuando todas las minas están correctamente marcadas
+
+## 🚀 Personalización
+Para modificar la configuración del juego, cambia los parámetros en la clase `MainBuscaminas`:
+```java
+Buscaminas partida = new Buscaminas(9, 10); // Tablero 9x9 con 10 minas
+```
 
 ---
 
-Proyecto desarrollado por Alejandro Plata Cortés como parte de la asignatura de Programación.
+Desarrollado por Alejandro Plata Cortés - Febrero 2025
