@@ -53,6 +53,9 @@ El proyecto busca aplicar y consolidar conocimientos de programación en Java, i
 - Programación por consola (sin interfaz gráfica)
 - Archivos de texto para configuración y almacenamiento de historial
 
+## ❌ Fé de erratas
+Este fue el primer proyecto que desarrollé en Java y tiene potencial para organizar mejor cada una de sus partes, agregar alguna clase y simplificar el código.
+
 ---
 
 Proyecto desarrollado por Alejandro Plata Cortés como parte de la asignatura de Programación.
