@@ -1,4 +1,4 @@
-# 👨‍💻 Mi Perfil de Desarrollo Web
+# 👨‍💻 Mi Perfil en el desarrollo web
 
 ## 🙋‍♂️ Sobre mí
 Soy un estudiante de desarrollo de aplicaciones web con habilidades intermedias en bases de datos, buscando oportunidades como desarrollador junior. Actualmente estoy enfocado en ampliar mis conocimientos técnicos para crecer profesionalmente en el mundo del desarrollo web.
