@@ -1,0 +1,9 @@
+Tamaño: 4
+Modo: Personalizado
+Casillas activas: 5
+Duración: 100
+Tablero:
+1000
+0100
+0010
+0001

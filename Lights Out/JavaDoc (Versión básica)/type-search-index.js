@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"LightsOut","l":"Tablero.Casilla"},{"p":"LightsOut","l":"Tablero.Casilla.Estado"},{"p":"LightsOut","l":"Main"},{"p":"LightsOut","l":"Partida"},{"p":"LightsOut","l":"Tablero"},{"p":"LightsOut","l":"TestCambiarLuces"},{"p":"LightsOut","l":"TestConfigurarJuego"}];updateSearchResults();
